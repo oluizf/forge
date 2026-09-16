@@ -1,0 +1,236 @@
+:root {
+    --main-color: #2a2a2a;
+    --contrast: #0f0f0f;
+    --orange: #eb622b;
+    --white: #ffffff;
+    --light-gray: #716760;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #121214;
+    font-family: Arial, sans-serif;
+}
+
+.header.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    background-color: #1a1a1e;
+    border-bottom: 1px solid #2a2a2e;
+}
+
+.logo-img {
+    height: 38px;
+    width: auto;
+    display: block;
+}
+
+
+/* Barra de pesquisa no menu principal*/
+.search-form {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 450px;
+    background-color: #0d0d0e;
+    border: 1px solid #3a3a3e;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.search-form input {
+    flex: 1;
+    background: transparent;
+    border: none;
+    outline: none;
+    padding: 0.6rem 1rem;
+    color: #ffffff;
+    font-size: 0.9rem;
+}
+
+.search-form input::placeholder {
+    color: #8a8a93;
+}
+
+.search-form button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #EB622B;
+    border: none;
+    color: #ffffff;
+    padding: 0.6rem 1rem;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.search-form button:hover {
+    background-color: #d4531e;
+}
+
+.search-form:focus-within {
+    border-color: #EB622B;
+}
+
+.header-spacer {
+    width: 150px;
+}
+
+.search-form:hover {
+    border-color: #EB622B;
+    background-color: #161618;
+    transition: border-color 0.2s ease, background-color 0.2s ease;
+}
+
+/* Mural do grid */
+.mural {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 24px;
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+/* Tablet/Celular: 1 coluna */
+@media (min-width: 600px) {
+    .mural {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* Desktop: 3 colunas */
+@media (min-width: 900px) {
+    .mural {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+
+/* Cartoes do grid (aonde vai aparecer os jogos) */
+.cartao {
+    background: #1a1a1e;
+    color: var(--white);
+    min-height: 220px;
+    border: 1px solid #3a3a3e;
+    border-radius: 4px;
+    transition: transform 0.2s ease, border-color 0.2s ease;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.cartao:hover {
+    transform: translateY(-4px);
+    border-color: var(--orange);
+}
+
+.cartao .marca {
+    display: inline-block;
+    border: 1px solid var(--light-gray);
+    padding: 3px 10px;
+    border-radius: 999px;
+    font-size: 12px;
+}
+
+.cartao-capa {
+    height: 140px;
+    background-color: #2a2a2e;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.cartao-conteudo {
+    padding: 18px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    flex-grow: 1;
+}
+
+/* Barra de filtros */
+.filtro {
+    background-color: #1a1a1e;
+    border: 1px solid #3a3a3e;
+    color: #8a8a93;
+    padding: 8px 18px;
+    border-radius: 999px;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    margin: 10px 10px auto;
+}
+
+/* Quando passar o mouse em cima */
+.filtro.ativo {
+    background-color: var(--orange);
+    color: var(--con);
+    border-color: var(--orange);
+}
+
+.filtro:hover:not(.ativo) {
+    border-color: var(--orange);
+    color: var(--white);
+    background-color: #242429;
+}
+
+.filtro:hover {
+    border-color: var(--orange);
+    color: var(--white);
+}
+
+/* Quando usar o TAB */
+.filtro:focus-visible,
+.search-form input:focus-visible,
+.search-form button:focus-visible {
+    outline: 2px solid var(--orange);
+    outline-offset: 3px;
+}
+
+
+/* Sessao jogos */
+
+.half-life {
+    background-image: url(../images/half_life.png);
+}
+
+.half-life-2 {
+    background-image: url(../images/half-life2.jpg);
+}
+
+.half-life-blue-shift {
+    background-image: url(../images/half_life_blue_shift.png);
+}
+
+.postal {
+    background-image: url(../images/postal.png);
+}
+
+.postal2 {
+    background-image: url(../images/postal_2.jpg);
+}
+
+.postal_redux {
+    background-image: url(../images/postal_redux.jpg);
+}
+
+.new_vegas {
+    background-image: url(../images/new_vegas.png);
+}
+
+.codbo2 {
+    background-image: url(../images/black_ops2.jpg);
+}
+
+.txr {
+    background-image: url(../images/txr.png);
+}
