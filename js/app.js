@@ -13,7 +13,7 @@ if (totalDeProjetos === 0) {
 } else if (totalDeProjetos === 1) {
   mensagem = '1 projeto publicado';
 } else {
-  mensagem = `${totalDeProjetos} projetos publicados`;
+  mensagem = `${totalDeProjetos} jogos publicados`;
 }
 
 // 4. Escrevendo na página
