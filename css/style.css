@@ -213,12 +213,16 @@ body {
     background-image: url(../images/half_life.png);
 }
 
-.half-life-2 {
-    background-image: url(../images/half-life2.jpg);
-}
-
 .half-life-blue-shift {
     background-image: url(../images/half_life_blue_shift.png);
+}
+
+.half_life_opposing_force {
+    background-image: url(../images/half_life_opposing_force.png);
+}
+
+.half-life-2 {
+    background-image: url(../images/half-life2.jpg);
 }
 
 .postal {
@@ -243,4 +247,76 @@ body {
 
 .txr {
     background-image: url(../images/txr.png);
+}
+
+.assetto_corsa {
+    background-image: url(../images/assetto\ corsa.png);
+}
+
+.competizione {
+    background-image: url(../images/competizione.png);
+}
+
+.euro_truck {
+    background-image: url(../images/euro_truck.png);
+}
+
+.max_payne_1 {
+    background-image: url(../images/max_payne.png);
+}
+
+.max_payne_2 {
+    background-image: url(../images/max_payne_2.png);
+}
+
+.max_payne_3 {
+    background-image: url(../images/max_payne_3.png);
+}
+
+.hotline_miami {
+    background-image: url(../images/hotline_miami.jpg);
+}
+
+.hotline_miami_2 {
+    background-image: url(../images/hotline_miami_2.jpg);
+}
+
+.hello_kitty {
+    background-image: url(../images/hello_kitty.png);
+}
+
+.lego_dinossauro {
+    background-image: url(../images/lego_dinossauro.png);
+}
+
+.lego_batman_1 {
+    background-image: url(../images/lego_batman.png);
+}
+
+.lego_batman_2 {
+    background-image: url(../images/lego_batman_2.jpg);
+}
+
+.lego_batman_3 {
+    background-image: url(../images/lego_batman_3.png);
+}
+
+.lego_indiana {
+    background-image: url(../images/lego_indiana_jones.png);
+}
+
+.lego_marvel {
+    background-image: url(../images/lego_marvel.png);
+}
+
+.lego_star_wars {
+    background-image: url(../images/lego_star_wars.png);
+}
+
+.lego_star_wars_2 {
+    background-image: url(../images/lego_star_wars_2.png);
+}
+
+.misery {
+    background-image: url(../images/misery.png);
 }
