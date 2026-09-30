@@ -196,6 +196,15 @@ body {
     outline-offset: 3px;
 }
 
+.contador {
+  display: inline-block;
+  margin-top: .5rem;
+  padding: .2rem .75rem;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, .18);
+  font-weight: 600;
+}
+
 
 /* Sessao jogos */
 
