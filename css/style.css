@@ -94,7 +94,7 @@ body {
     display: grid;
     grid-template-columns: 1fr;
     gap: 24px;
-    max-width: 1200px;
+    max-width: 1400px;
     margin: 40px auto;
     padding: 0 20px;
 }
@@ -109,7 +109,7 @@ body {
 /* Desktop: 3 colunas */
 @media (min-width: 900px) {
     .mural {
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(4, 1fr);
     }
 }
 
@@ -129,7 +129,7 @@ body {
 }
 
 .cartao:hover {
-    transform: translateY(-4px);
+    transform: translateY(-16px);
     border-color: var(--orange);
 }
 
@@ -198,10 +198,10 @@ body {
 
 .contador {
   display: inline-block;
-  margin-top: .5rem;
-  padding: .2rem .75rem;
+  margin: 12px;
+  padding: 8px;
   color: var(--white);
-  border-radius: 999px;
+  border-radius: 12px;
   background: var(--orange);
   font-weight: 600;
 }
