@@ -1,6 +1,6 @@
 # forge
 
-<img src="docs/img/forge.png" alt="tela incial" width="300" height="150">
+<img src="docs/img/forge.png" alt="tela incial" width="600" height="350">
 
 
 ## Integrantes
